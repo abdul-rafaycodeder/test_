@@ -30,3 +30,27 @@
     font-size: 16px;
     cursor: pointer;
 }
+
+
+
+#rollNumber {
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+}   
+
+#campus {
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+}   
+
+
+#enterNumbers{
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
