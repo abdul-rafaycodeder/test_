@@ -37,4 +37,26 @@ function checkCampus() {
         console.log("campus==>", campus)
 }
 
+var paragraph = false;
 
+function expentpara() {
+    var expentpara = 'Ya hai click karna k bad ka text'
+
+    if(paragraph === false) {
+        document.getElementById("expent").innerHTML = expentpara +  '<a href="#" onclick="expentpara()"><em> Click for Less</em></a>';
+        paragraph = true;
+    } else {
+        document.getElementById("expent").innerHTML = ' This is a small information <a href="#" onclick="expentpara()"><em> Click for more</em></a>';
+        paragraph = false;
+    }
+}
+
+
+
+function list(){
+    var listItems = '<li>Rafay</li><li>Ali</li><li>Osama</li><li>bilal</li>';
+    var oderListH1 = '<h1>Oder List</h1>';
+
+    document.getElementById("oderList").innerHTML = oderListH1 + listItems;
+    
+}
