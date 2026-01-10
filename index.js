@@ -52,11 +52,25 @@ function expentpara() {
 }
 
 
+var oderList = false;
 
 function list(){
     var listItems = '<li>Rafay</li><li>Ali</li><li>Osama</li><li>bilal</li>';
     var oderListH1 = '<h1>Oder List</h1>';
-
-    document.getElementById("oderList").innerHTML = oderListH1 + listItems;
+    var buttonTextchange = 'Click to Hide Oder List'; ;
+   
+    if(oderList === false){
+        document.getElementById("oderList").innerHTML = oderListH1 + listItems;
+        document.getElementById("changeOderListButtonText").innerText = buttonTextchange;
+        oderList = true;
+    } else {
+        document.getElementById("oderList").innerHTML = '';
+        document.getElementById("changeOderListButtonText").innerText = 'Click to get oder list ';
+        oderList = false;
+    }
     
+}
+
+function changeImage() {
+    document.getElementById("carImage").className  = "carImage";
 }

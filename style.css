@@ -54,3 +54,9 @@
     margin-top: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+#carImage {
+    visibility: hidden;
+    cursor: pointer;
+}
