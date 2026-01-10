@@ -39,7 +39,7 @@
     border: 2px solid gray;
     border-radius: 5px;
     font-size: 16px;
-}   
+}
 
 #campus {
     margin-top: 10px;
@@ -47,16 +47,33 @@
     border: 2px solid gray;
     border-radius: 5px;
     font-size: 16px;
-}   
+}
 
 
-#enterNumbers{
+#enterNumbers {
     margin-top: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* first car image */
 
-#carImage {
-    visibility: hidden;
-    cursor: pointer;
+.imageHide {
+    display: none;
+}
+
+.imageshow {
+    display: block;
+}
+
+/* second car image */
+
+
+.bigImage {
+    width: 500px;
+    transition: width 1s;
+}
+
+.smallImage {
+    width: 300px;
+    transition: width 1s;
 }
